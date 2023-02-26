@@ -2,3 +2,13 @@ kind: Pod
 apiVersion: v1
 metadata:
   name: test
+spec:
+  volumes:
+  - name: test
+    emptyDir: {}
+  containers:
+  - name: test
+    image: nginx
+    volumeMounts:
+    - name: test
+      mountPath: /usr/share/nginx/html
