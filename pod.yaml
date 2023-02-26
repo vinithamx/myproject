@@ -4,3 +4,6 @@ metadata:
   name: test
   labels:
     color: blue
+spec:
+  volumes:
+  - name: test
