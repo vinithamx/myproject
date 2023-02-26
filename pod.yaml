@@ -4,3 +4,6 @@ metadata:
   name: test
   labels:
     color: blue
+  namespace: prod
+spec:
+ containers
