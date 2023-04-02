@@ -10,3 +10,5 @@ spec:
  - name: test
    image: tomcat
    containerPort: 8080
+   volumeMounts:
+   - name: testvolume
