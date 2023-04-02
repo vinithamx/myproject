@@ -6,4 +6,6 @@ metadata:
     color: blue
   namespace: prod
 spec:
- containers
+ containers:
+ - name: test
+   image: tomcat
