@@ -12,3 +12,4 @@ spec:
    containerPort: 8080
    volumeMounts:
    - name: testvolume
+     mountPath: /opt/tomcat/
