@@ -12,7 +12,7 @@ pipeline {
 
     stage('Build image') {
       steps{
-        sh 'docker build -t "cubensquare/python:$BUILD_NUMBER"  "$WORKSPACE"/'
+        sh 'docker build -t "cubensquare/python"  "$WORKSPACE"/'
         }
       }
   
@@ -24,7 +24,7 @@ pipeline {
 
     stage('Push Image') {
       steps{
-         sh 'docker push cubensquare/python:$BUILD_NUMBER'
+         sh 'docker push cubensquare/python'
       }
     }
 
