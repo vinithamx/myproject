@@ -1,10 +1,3 @@
-FROM python:3.7
-RUN pip install flask
-RUN pip install MySQL
-RUN pip install request
-RUN pip install flask_mysqldb
-VOLUME /flask
-COPY flask/ /flask
-EXPOSE 8080
-WORKDIR /flask
-CMD [ "python", "./app_script.py" ]
+FROM nginx
+RUN apt update
+RUN apt install vim -y
