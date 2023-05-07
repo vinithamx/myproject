@@ -28,11 +28,6 @@ pipeline {
       }
     }
 
-  post {
-     always {
-      sh 'docker logout'
-      }
-    }
     stage('Deploy App') {
       steps {
         script {
@@ -40,6 +35,10 @@ pipeline {
         }
       }
     }
-
+   post {
+     always {
+      sh 'docker logout'
+      }
+    }
   }
  }
