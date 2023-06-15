@@ -4,4 +4,4 @@ metadata:
   name: test
 spec:
   containers:
-  - name: test
+  - name: cubensquare
