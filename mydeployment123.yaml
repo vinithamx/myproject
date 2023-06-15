@@ -5,3 +5,4 @@ metadata:
 spec:
   containers:
   - name: cubensquare
+    image: httpd
