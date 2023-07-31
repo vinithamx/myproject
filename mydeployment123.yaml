@@ -4,5 +4,6 @@ metadata:
   name: test
 spec:
   containers:
-  - name: cubensquare
-    image: httpd
+
+  - name: test123
+    image: nginx
