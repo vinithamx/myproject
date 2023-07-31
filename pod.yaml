@@ -12,5 +12,6 @@ spec:
    containerPort: 8080
  volumes:
  - name: testvolume
-   emptyDir: {}
+   persistentvolumeClaim:
+       claimName: cubensquare-pv
 
