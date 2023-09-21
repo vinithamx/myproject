@@ -11,7 +11,7 @@ spec:
    image: tomcat
    containerPort: 8080
  volumes:
- - name: volumetest
+ - name: volumetest123
    persistentvolumeClaim:
        claimName: cubensquare-pvc
 
