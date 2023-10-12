@@ -13,6 +13,7 @@ spec:
    volumeMountPath:
    - name: volumetest123
      mountPath: /home/lokesh/
+     mountPath: /home/goms/
  volumes:
  - name: volumetest123
    persistentvolumeClaim:
