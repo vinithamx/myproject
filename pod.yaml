@@ -6,6 +6,10 @@ metadata:
     color: blue
   namespace: prod
 spec:
+tolerations:
+- key: infra
+  value: node
+  effect: NoSchedule
  containers:
  - name: test
    image: tomcat
