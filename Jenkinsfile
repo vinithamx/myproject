@@ -4,7 +4,7 @@ pipeline {
     DOCKERHUB_CREDENTIALS = credentials('dockerhub')  
   }
   stages {
-    stage('Checkout Source') {
+    stage('Checkout my code') {
       steps {
         git 'https://github.com/cubensquare/myproject.git'
       }
