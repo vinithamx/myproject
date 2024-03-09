@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: test
   labels:
-    color: green
+    color: yello
   namespace: prod
 spec:
 tolerations:
