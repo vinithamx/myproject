@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: frontend
-    run: frontend
+    run: frontendapplication1
   name: frontendapplication
 spec:
   replicas: 5
