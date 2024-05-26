@@ -16,7 +16,8 @@ pipeline {
         }
       }
   
-    stage('Login to quay.io') {
+    stage('Login to dockerhub and quay.io') {
+
       steps {
         sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin'
       }
