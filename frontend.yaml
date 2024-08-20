@@ -9,7 +9,7 @@ spec:
   replicas: 5
   selector:
     matchLabels:
-      app: frontend
+      app: frontend1
   template:
    metadata:
     labels:
