@@ -34,6 +34,6 @@ spec:
     protocol: TCP
     targetPort: 8080
   selector:
-    app: frontend
+    app: frontend1
   sessionAffinity: None
   type: NodePort
