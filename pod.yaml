@@ -5,7 +5,7 @@ metadata:
   labels:
     color: yello
     app: hdfc
-  namespace: prod
+  namespace: dev
 spec:
 tolerations:
 - key: infra
